@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+
+/* font-family: 'Karla', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 120px;
+}
+.img-navbar{
+    height: 60px;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 0 0 5px #000;
+    font-family:'Roboto', sans-serif ;
+}
+
+.banner{
+    background-image: url(imagenes/atardecer.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px !important;
+}
+
+.banner h1 p{
+    font-family: 'Karla', sans-serif;
+    text-shadow: 0 0 5px #000
+                0 0 5px #000;
+}
+            
+main{
+    background-color: rgb(33, 37, 41);
+}
+
+.call{
+    display: flex;
+
+}
+
+aside{
+    font-family: 'Roboto', sans-serif;
+    width: 40%;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+.video1{
+    padding: 40px;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    background-color: #252323;
+    text-align: center;
+    color: aliceblue;
+}
+section{
+    background-color:  rgb(33, 37, 41);
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    font-family: 'Roboto', sans-serif;
+    height: 400px;
+    width: 250px;
+    background-color: #252323;
+    text-align: center;
+    color: white;
+    border: 5px solid #569eda;
+}
+.card-img1{
+    height: 200px;
+    background-image: url(imagenes/bus.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.card-title{
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.card p{
+    font-family: 'Karla', sans-serif;
+    padding: 10px;
+}
+.card a{
+    color: white;
+    background-color: #569eda;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.card-img2{
+    height: 200px;
+    background-image: url(imagenes/avion.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card-img3{
+    height: 200px;
+    background-image: url(imagenes/auto.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* css alojamiento */
+main.main-aloj{
+    height: auto;
+    background-color: #252323;
+    background-position: center;
+    background-size: cover;
+    
+}
+main.main-aloj h1{
+    width: 100%;
+    height: 80px;
+    background-color: #569eda;
+    padding-top: 20px;
+}
+main.main-aloj p{
+    color:#000;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(255, 250, 250);
+    margin-right: 25%;
+    margin-left: 25%;
+    font-size: 20px;
+    background-color: #87ececad; 
+    
+}
+
+.galeria{
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    padding-top: 30px;
+    /* grid-gap: 15px; */
+}
+.item{
+    border: 2px solid #000;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.item1{
+    background-image: url(imagenes/comodoro1.jpg) ;
+    /* grid-column: 1/2;
+    grid-row: 1/3; */
+}
+.item2{
+    background-image: url(imagenes/comodoro2.jpg) ;
+    /* grid-column: 2/3;
+    grid-row: 1/2; */
+}
+.item3{
+    background-image: url(imagenes/comodoro3.jpg) ;
+    /* grid-column: 3/5;
+    grid-row: 1/2; */
+}
+.item4{
+    background-image: url(imagenes/wam1.jpg) ;
+    /* grid-column: 2/3;
+    grid-row: 2/4; */
+}
+.item5{
+    background-image: url(imagenes/wam2.jpg) ;
+    /* grid-column: 3/4;
+    grid-row: 2/3; */
+}
+.item6{
+    background-image: url(imagenes/wam3.jpg) ;
+    /* grid-column: 4/5;
+    grid-row: 2/3; */
+}
+.item7{
+    background-image: url(imagenes/lucania2.jpg) ;
+    /* grid-column: 1/2;
+    grid-row: 3/4; */
+}
+.item8{
+    background-image: url(imagenes/lucania3.jpg) ;
+    /* grid-column: 3/5;
+    grid-row: 3/4; */
+}
+
+.card-aloj{
+    font-family: 'Roboto', sans-serif;
+    height: 300px;
+    width: 250px;
+    background-color: #252323;
+    text-align: center;
+    color: white;
+    border: 5px solid #569eda;
+}
+.card-img4{
+    height: 200px;
+    background-image: url(imagenes/lucania\ hotel.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card-img5{
+    height: 200px;
+    background-image: url(imagenes/hotel\ austral.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card-img6{
+    height: 200px;
+    background-image: url(imagenes/hote\ wam.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card-titulo{
+    color: white;
+    /* margin-bottom: 10px;
+    margin-top: 10px; */
+}
+.card-aloj a{
+    color: white;
+    background-color: #569eda;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;  
+}
+
+footer{
+    padding-top: 30px;
+    font-size: 20px;
+    height: 100%;
+    background-color:  #252323;
+    color: white;
+    text-align: center;
+}
+
+.redes{
+    color: #569eda ;
+    font-size: 30px;
+    padding: 10px;
+    letter-spacing: 15px;
+}
+
+.wa{
+    background-color: transparent;
+    color: green;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    font-size: 50px;
+}
+
+
+
+
+/* ajustes de medias queries */
+
+@media only screen and (min-width: 0px) and (max-width: 812px){
+    .navbar-collapse{
+        background-color: rgb(33, 37, 41);
+        display: flex;
+        justify-content: center !important;
+    }
+p{
+        padding-top: 40px;
+    }
+    .call{
+        display: block;
+    }
+    aside{
+        width: 100%;
+    }
+iframe{
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 500px){
+    section{
+    display: flex;
+    flex-direction: column !important;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .galeria{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 100px);
+    }
+}
+
+    
+
+
