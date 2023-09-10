@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+
+/* font-family: 'Karla', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$font1: 'Karla', sans-serif;
+$font2: 'Roboto', sans-serif;
+$fondo1: rgb(33, 37, 41);
+$fondo2: rgb(37, 35, 35);
+
+.navbar{
+    height: 120px;
+}
+.img-navbar{
+    height: 60px;
+    transform: rotate(0deg);
+}
+
+.img-navbar:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 0 0 5px #000;
+    font-family: $font2;
+}
+
+.banner{
+    background-image: url(imagenes/atardecer.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px !important;
+}
+
+.banner h1 p{
+    font-family: $font1;
+    text-shadow: 0 0 5px #000
+                0 0 5px #000;
+}
+            
+main{
+    background-color: $fondo1;
+    height: auto;}
+
+.call{
+    display: flex;
+
+}
+
+aside{
+    font-family: $font2;
+    width: 40%;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+.video1{
+    padding: 40px;
+}
+
+h2{
+    font-family: $font2;
+    height: 50px;
+    background-color: $fondo2;
+    text-align: center;
+    color: aliceblue;
+}
+section{
+    background-color: $fondo1;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    font-family: $font2;
+    height: 400px;
+    width: 250px;
+    background-color: $fondo2;
+    text-align: center;
+    color: white;
+    border: 5px solid #569eda;
+}
+.card-img1{
+    height: 200px;
+    background-image: url(imagenes/bus.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.card-title{
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.card p{
+    font-family: $font1;
+    padding: 10px;
+}
+.card a{
+    color: white;
+    background-color: #569eda;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.card a:hover{
+    background-color: #27608f;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.card-img2{
+    height: 200px;
+    background-image: url(imagenes/avion.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card-img3{
+    height: 200px;
+    background-image: url(imagenes/auto.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* css alojamiento */
+main.main-aloj{
+    height: auto;
+    background-color: $fondo2;
+    background-position: center;
+    background-size: cover;
+    
+}
+main.main-aloj h1{
+    width: 100%;
+    height: 80px;
+    background-color: #569eda;
+    padding-top: 20px;
+}
+main.main-aloj p{
+    color:#000;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(255, 250, 250);
+    margin-right: 25%;
+    margin-left: 25%;
+    font-size: 20px;
+    background-color: #87ececad; 
+    
+}
+
+.galeria{
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    padding-top: 5px;
+    /* grid-gap: 15px; */
+}
+.item{
+    border: 2px solid #000;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.item:hover{
+    transform: scale(1.08);
+    transition: all 0.9s;
+}
+.item1{
+    background-image: url(imagenes/comodoro1.jpg);
+    
+}
+.item2{
+    background-image: url(imagenes/comodoro2.jpg) ;
+}
+.item3{
+    background-image: url(imagenes/comodoro3.jpg) ;
+}
+.item4{
+    background-image: url(imagenes/wam1.jpg) ;
+}
+.item5{
+    background-image: url(imagenes/wam2.jpg) ;
+}
+.item6{
+    background-image: url(imagenes/wam3.jpg) ;
+}
+.item7{
+    background-image: url(imagenes/lucania2.jpg) ;
+}
+.item8{
+    background-image: url(imagenes/lucania3.jpg) ;
+}
+
+.card-aloj{
+    font-family: $font2;
+    height: 300px;
+    width: 250px;
+    background-color: $fondo2;
+    text-align: center;
+    color: white;
+    border: 5px solid #569eda;
+}
+.card-img4{
+    height: 200px;
+    background-image: url(imagenes/lucania\ hotel.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card-img5{
+    height: 200px;
+    background-image: url(imagenes/hotel\ austral.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card-img6{
+    height: 200px;
+    background-image: url(imagenes/hote\ wam.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card-titulo{
+    color: white;
+}
+
+.card-aloj a{
+    color: white;
+    background-color: #569eda;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;  
+}
+
+.card-aloj a:hover{
+    background-color: #27608f;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+// css gastronomia
+main.main-gas{
+    background-color: $fondo1;
+    height: 900px;
+}
+
+// css footer
+footer{
+    padding: 20px;
+    font-size: 20px;
+    background-color:  rgb(37, 35, 35);
+    color: white;
+    text-align: center;
+}
+
+.redes{
+    color: #569eda ;
+    font-size: 30px;
+    padding: 10px;
+    letter-spacing: 15px;
+}
+
+.wa{
+    background-color: transparent;
+    color: green;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    font-size: 50px;
+}
+/* ajustes de medias queries */
+
+@media only screen and (min-width: 0px) and (max-width: 812px){
+    .navbar-collapse{
+        background-color: $fondo1;
+        display: flex;
+        justify-content: center !important;
+    }
+p{
+        padding-top: 40px;
+    }
+    .call{
+        display: block;
+    }
+    aside{
+        width: 100%;
+    }
+iframe{
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 500px){
+    section{
+    height: auto;
+    display: flex;
+    flex-direction: column !important;
+    }
+    .galeria{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 400px);
+        
+    }
+    .card-aloj{
+        padding: 20px;
+        width: auto;
+    }
+    main.main-aloj p{
+        margin-right: 5%;
+        margin-left: 5%;
+        padding-top: 10px;   
+    }
+    .card{
+        width: auto;
+    }
+}
