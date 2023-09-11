@@ -248,9 +248,75 @@ main.main-aloj p{
 }
 
 // css gastronomia
-main.main-gas{
+.main-gastronomia{
     background-color: $fondo1;
-    height: 900px;
+    height: auto;
+}
+
+.banner-gastronomia{
+    background-color: #27608f;
+    text-align: center;
+}
+.gastronomia{
+    height: auto;
+    background-color: $fondo1;
+    padding-top: 20px;
+    // display: flex;
+}
+.gastronomia1{
+    height: auto;
+    background-color: $fondo1;
+    padding-top: 20px;
+    // display: flex;
+}
+.gastronomia2{
+    height: auto;
+    background-color: $fondo1;
+    padding-top: 20px;
+    // display: flex;
+}
+
+.gright{
+    background-image: url(./imagenes/cayococo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.gleft{
+    padding: 20px;
+    width: 50%;
+    color: white;    
+}
+.gright1{
+    background-image: url(./imagenes/larastra.jpg);
+    background-size: cover;
+    background-position: top;
+    width: 50%;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.gleft1{
+    padding: 20px;
+    width: 50%;
+    color: white;    
+}
+.gright2{
+    background-image: url(./imagenes/puertomitre.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.gleft2{
+    padding: 20px;
+    width: 50%;
+    color: white;    
 }
 
 // css footer
